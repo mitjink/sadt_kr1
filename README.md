@@ -3,17 +3,17 @@
 ## Инструкция по запуску
 1. Клонировать репозиторий:
 
-git clone [\[ссылка на репозиторий\]](https://github.com/mitjink/sadt_kr1)
-cd 1_kr
+git clone https://github.com/mitjink/sadt_kr1  
+cd 1_kr  
 
 2. Создать и активировать виртуальное окружение:
 
 ### Windows
-python -m venv venv
+python -m venv venv  
 venv\Scripts\activate
 
 ### Mac/Linux
-python3 -m venv venv
+python3 -m venv venv  
 source venv/bin/activate
 
 3. Установить зависимости:
@@ -26,7 +26,7 @@ uvicorn app:app --reload
 
 5. Открыть в браузере:
 
-Документация Swagger: http://localhost:8000/docs
+Документация Swagger: http://localhost:8000/docs  
 
 Корневой маршрут: http://localhost:8000/
 
