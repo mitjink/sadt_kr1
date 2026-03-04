@@ -13,16 +13,12 @@ vendor/
 # Env
 .env
 
-# Logs
-*.log
-
 # Build
 /dist
 /build
 
 # Python
 __pycache__/
-*.pyc
 env/
 venv/
 .python-version
